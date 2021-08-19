@@ -36,7 +36,7 @@ a:link {
 
 /* Main */
 main p {
-  text-align: center;
+  text-align: left;
 }
 
 main a:visited {
