@@ -1,0 +1,52 @@
+body {
+    margin: 50px;
+    font-family: courier;
+    background-color: #ebf3f2; 
+    color: #141314;
+  }
+  h1, h2, h3 {
+    
+      color: #808080;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+  }
+  figure { text-align: center;
+  }
+  figcaption { text-align: center;
+    font-style: italic
+    }
+    
+  main img {
+      width: 20%;
+      height: auto;
+      text-align: right; 
+  }
+  
+  p {
+      text-align: center;
+  }
+  footer {
+      text-align: center;
+  }
+  footer img {
+      width: 88px;
+      height: auto;
+  }
+  
+ 
+  a:link {
+    color: purple;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: orange;
+  }
+  
+  a:active {
+    color: white;
+  }
