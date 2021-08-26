@@ -1,7 +1,8 @@
 body{
   font-family: "Gill Sans Extrabold", sans-serif;
   margin: auto;
-  background: #ebf3f2;;
+  background: #ebf3f2;
+  font-size: 30px;
 }
 
 h1{
@@ -18,9 +19,7 @@ color: rgb(103, 128, 196);
   text-align: center;
 
 }
-figure.cute {
-  text-align: left;
-}
+
 
 ul{
   text-align: left; 
@@ -29,14 +28,9 @@ ul{
 
 figcaption{
   font-style: oblique;
+  font-size: 20px;	
 }
 
-
-div.content{
-  font-size: 1.5em;
-  width: 50%;
-  margin: auto;
-}
 
 main.intro{
  display: flex;
