@@ -1,7 +1,8 @@
 body{
+  margin: 30PX;
   font-family: "Gill Sans Extrabold", sans-serif;
-  margin: auto;
-  background: #ebf3f2;
+  text-align: center;
+  background-color: #ebf3f2;
   font-size: 30px;
 }
 
@@ -23,7 +24,7 @@ color: rgb(103, 128, 196);
 
 ul{
   text-align: left; 
-  font-size: 30px;
+  
 }
 
 figcaption{
@@ -36,7 +37,9 @@ main.intro{
  display: flex;
   flex-wrap: wrap;
 }
-
+li {
+	margin: 10px 0;
+}
 
 footer{
 	display: block;
@@ -46,9 +49,14 @@ footer{
 	margin-right: auto;
 }
 
+a {
+	text-decoration: none;
+	text-align: left;
+}
+
 a:link{
   color: rgb(114 143 156);
-  text-decoration: none;
+ 
 }
 
 a:visited{
