@@ -1,0 +1,58 @@
+body{
+  margin: 50PX;
+  font-family: cursive;
+  text-align: center;
+  background-color: #6e790a;
+  font-size: 20px;
+  color: #0d0e0de5;
+}
+img {  
+  width:300px;
+   height:400px;   
+}
+figcaption{
+  font-style: oblique;
+  font-size: 20px;	
+}
+
+h1{
+  color: #143d96;
+  font-size: 50px;
+  text-align: center;
+}
+ 
+h2{
+  color: #9fe29f;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+  color: #0d0e0de5;
+}
+
+a:hover{
+  color: #3d51c2;
+
+}
+
+a:active{
+  color: #e79213;
+}
+
+footer img{
+  height: 31px;
+  width: 88px;
+}
+
+footer {
+  padding-top: 25px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1;
+}
+
