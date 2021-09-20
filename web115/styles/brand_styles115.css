@@ -1,7 +1,6 @@
 body{
   margin: 50PX;
   font-family: cursive;
-  text-align: center;
   background-color: #996699;
   font-size: 20px;
   color: #0d0e0de5;
@@ -13,10 +12,6 @@ header, footer
 	margin-bottom: 50px;
 	text-align: center;
 }
-
-
-
-
 
 
 img {  
