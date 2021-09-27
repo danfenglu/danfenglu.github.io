@@ -9,43 +9,48 @@
 <title>Danfeng Lu - Web 210 - index</title>
 </head>
 
-<body>
-	<header>
-		<h1>Danfeng Lu - Web210-N801</h1>
-		<nav>
-			<a href="web210_index.html">Home</a> 
-			&#9733
-			<a href="web210_introduction.html">Introduction</a> 
-			&#9733
-			<a href="web210_contract.html">Contract</a>
-			&#9733
-			<a href="web210_brand.html">Brand</a>
-		
-		</nav>
-	</header>
 
- <main>
+<script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }      
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+    </script>
     
-	    <h2>Table of Contents</h2>
+    <body>
 
-</main>		
-
-
-<footer>  
-		<p> 
-		<a href="https://github.com/danfenglu">Github</a> | 
-		<a href="https://github.com/danfenglu/danfenglu.github.io">Github Pages</a> |
-		<a href="https://www.codecademy.com/profiles/Danfeng88">codecademy</a> |
-		<a href="https://jsfiddle.net/user/danfeng88/">jsfiddle</a> |
-		<a href="https://www.khanacademy.org/profile/kaid_973732650511053880701095/">khanacademy</a> |
-
-		</p>
-		<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanfenglu.github.io%2Fweb210%2Fweb210_index.html"><img src="images/html_validate_button.png" alt=" HTML5 validation button"></a>|
-		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdanfenglu.github.io%2Fweb210%2Fweb210_index.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="images/css_validate_button.gif" alt=" CSS3 validation button"></a>|
-
-        <p>page built by Sunshine Webspace Inc.</p>
-
-</footer>
-</body>
-
-</html>
+        <div w3-include-html="https://danfenglu.github.io/web210/components/header.html"></div>
+        <div w3-include-html="https://danfenglu.github.io/web210/components/content.html"></div>
+        <div w3-include-html="https://danfenglu.github.io/web210/components/footer.html"></div>
+            
+        <script>
+        includeHTML();
+        </script> 
+        </body>
+            
+        
+            
+        </html>
