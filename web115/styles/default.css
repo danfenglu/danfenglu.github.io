@@ -11,39 +11,34 @@ body
 
 h1
 {
-  color: rgb(103, 128, 196);
+ color: rgb(103, 128, 196);
  text-align: center;
  line-height: 1;
  font-size: 50px;
-
 }
 
- h2
+h2
 {
   color: rgb(103, 128, 196);
   font-size: 30px;
   text-align: center;
-
 }
 
 img 
 {
-  
-  width:300px;
+   width:300px;
    height:400px;
-  
-  
-}
+   }
+
 main p 
 {
- 
   text-align: left;
 }
 
 a 
 {
-	text-decoration: none;
-	text-align: left;
+  text-decoration: none;
+  text-align: left;
 }
 
 a:link
@@ -67,10 +62,10 @@ a:active
 {
   color: rgb(163 49 156);
 }
+
 ul
 {
   text-align: left; 
-  
 }
 
 figcaption
@@ -78,6 +73,7 @@ figcaption
   font-style: oblique;
   font-size: 20px;	
 }
+
 figure
 {
   text-align: center;
@@ -85,7 +81,7 @@ figure
 
 li
 {
-	margin: 10px 0;
+  margin: 10px 0;
 }
 
 footer img
@@ -96,11 +92,10 @@ footer img
 
 footer a:visited 
 {
-	color: rgb(105 78 145);
+  color: rgb(105 78 145);
 }
-footer a:hover 
+  footer a:hover 
 {
-
   color: rgb(114 143 156);
 }
 
@@ -113,15 +108,20 @@ footer
   line-height: 1;
 }
 
-p.input{
+p.input
+{
   text-align: center;
   background-color: rgb(24, 231, 86);
 }
-p.output{
+
+p.output
+{
   text-align: center;
   background-color: rgb(153, 150, 146);
   color: rgb(211, 11, 87);
 }
-li:not(:last-child) {
+
+li:not(:last-child)
+{
   margin-bottom: 25px;
 }
