@@ -78,7 +78,10 @@ figcaption
   font-style: oblique;
   font-size: 20px;	
 }
-
+figure
+{
+  text-align: center;
+}
 
 li
 {
