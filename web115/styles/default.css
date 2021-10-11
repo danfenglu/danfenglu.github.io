@@ -113,3 +113,15 @@ footer
   line-height: 1;
 }
 
+p.input{
+  text-align: center;
+  background-color: rgb(24, 231, 86);
+}
+p.output{
+  text-align: center;
+  background-color: rgb(153, 150, 146);
+  color: rgb(211, 11, 87);
+}
+li:not(:last-child) {
+  margin-bottom: 25px;
+}
