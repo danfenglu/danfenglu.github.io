@@ -100,11 +100,10 @@ footer img
 
 footer a:visited 
 {
-	color: rgb(105 78 145);
+  color: rgb(105 78 145);
 }
-footer a:hover 
+ footer a:hover 
 {
-
   color: rgb(114 143 156);
 }
 
@@ -122,13 +121,16 @@ p.input
   text-align: center;
   background-color: rgb(24, 231, 86);
 }
+
 p.output
 {
   text-align: center;
   background-color: rgb(153, 150, 146);
   color: rgb(211, 11, 87);
 }
-li:not(:last-child) {
+
+li:not(:last-child) 
+{
   margin-bottom: 25px;
 }
 
