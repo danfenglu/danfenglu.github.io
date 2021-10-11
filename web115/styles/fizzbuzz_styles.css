@@ -1,86 +1,121 @@
 
 
 
-body{
+body
+{
   margin: 50PX;
-  font-family: cursive;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  text-align: left;
+  background-color: #d4eeeb;
+  font-size: 30px;
+  margin: 0 100px;
+  color: rgb(95, 63, 24);
+}
+
+
+h1
+{
+  color: rgb(103, 128, 196);
+ text-align: center;
+ line-height: 1;
+ font-size: 50px;
+
+}
+
+ h2
+{
+  color: rgb(103, 128, 196);
+  font-size: 30px;
   text-align: center;
-  background-color: #996699;
-  font-size: 20px;
-  color: #0d0e0de5;
+
 }
 
-header, footer
+img 
 {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
-}
-
-main
-{
-	margin-left: 100px;
-	margin-right: 100px;
-}
-
-
-
-
-
-img {  
+  
   width:300px;
-   height:400px;   
+   height:400px;
+  
+  
 }
-figcaption{
+main p, form
+{
+ 
+  text-align:center;
+}
+
+a 
+{
+	text-decoration: none;
+	text-align: left;
+}
+
+a:link
+{
+  color: rgb(114 143 156);
+ 
+}
+
+a:visited
+{
+  color: rgb(105 78 145);
+}
+
+a:hover
+{
+  color: rgb(114 143 156);
+  text-decoration: underline;
+}
+
+a:active
+{
+  color: rgb(163 49 156);
+}
+ul
+{
+  text-align: left; 
+  
+}
+
+figcaption
+{
   font-style: oblique;
   font-size: 20px;	
 }
-
-h1{
-  color: #143d96;
-  font-size: 50px;
-  text-align: center;
-}
- 
-h2{
-  color: #9fe29f;
-  font-size: 30px;
+figure
+{
   text-align: center;
 }
 
-ul{
-
-  text-align: left;
-  list-style-type: none;
+li
+{
+	margin: 10px 0;
 }
 
-
-
-
-  
-
-li:not(:last-child) {
-    margin-bottom: 25px;
+footer img
+{
+  height: 31px;
+  width: 88px;
 }
 
-a {
-    text-decoration: none;
+footer a:visited 
+{
+	color: rgb(105 78 145);
+}
+footer a:hover 
+{
+
+  color: rgb(114 143 156);
 }
 
-a:visited{
-  color: #152515e5;
+footer 
+{
+  padding-top: 25px;
+  font-size: 20px;
+  color:rgb(103, 128, 196);
+  text-align: center;
+  line-height: 1;
 }
-
-a:hover{
-  color: #1534e0;
-
-}
-
-a:active{
-  color: #e79213;
-}
-
-
 
 p.input{
   text-align: center;
@@ -91,16 +126,9 @@ p.output{
   background-color: rgb(153, 150, 146);
   color: rgb(211, 11, 87);
 }
-
-
-footer img{
-  height: 31px;
-  width: 88px;
+li:not(:last-child) {
+  margin-bottom: 25px;
 }
 
-footer {
-  padding-top: 25px;
-  font-size: 20px;
-  text-align: center;
-  line-height: 1;
-}
+
+
