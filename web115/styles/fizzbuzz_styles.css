@@ -117,11 +117,13 @@ footer
   line-height: 1;
 }
 
-p.input{
+p.input
+{
   text-align: center;
   background-color: rgb(24, 231, 86);
 }
-p.output{
+p.output
+{
   text-align: center;
   background-color: rgb(153, 150, 146);
   color: rgb(211, 11, 87);
