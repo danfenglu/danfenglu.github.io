@@ -1,13 +1,16 @@
-body{
+body
+{
   margin: 50PX;
   font-family: "Gill Sans Extrabold", sans-serif;
-  text-align: center;
-  background-color: #ebf3f2;
+  text-align: left;
+  background-color: #d4eeeb;
   font-size: 30px;
   margin: 0 100px;
+  color: rgb(95, 63, 24);
 }
 
-h1{
+h1
+{
   color: rgb(103, 128, 196);
  text-align: center;
  line-height: 1;
@@ -15,76 +18,113 @@ h1{
 
 }
 
- h2{
+ h2
+{
   color: rgb(103, 128, 196);
   font-size: 30px;
   text-align: center;
 
 }
 
-img {
+img 
+{
   
   width:300px;
    height:400px;
   
-  }
-main p {
+  
+}
+main p 
+{
+ 
   text-align: left;
 }
 
-a {
+a 
+{
 	text-decoration: none;
 	text-align: left;
 }
 
-a:link{
+a:link
+{
   color: rgb(114 143 156);
  
 }
 
-a:visited{
+a:visited
+{
   color: rgb(105 78 145);
 }
 
-a:hover{
+a:hover
+{
   color: rgb(114 143 156);
   text-decoration: underline;
 }
 
-a:active{
+a:active
+{
   color: rgb(163 49 156);
 }
-ul{
+ul
+{
   text-align: left; 
   
 }
 
-figcaption{
+figcaption
+{
   font-style: oblique;
   font-size: 20px;	
 }
+figure
+{
+  text-align: center;
+}
 
-
-li {
+li
+{
 	margin: 10px 0;
 }
 
-footer img{
+footer img
+{
   height: 31px;
   width: 88px;
 }
-footer a:visited {
+
+footer a:visited 
+{
 	color: rgb(105 78 145);
 }
-footer a:hover {
+footer a:hover 
+{
 
   color: rgb(114 143 156);
 }
-footer {
+
+footer 
+{
   padding-top: 25px;
   font-size: 20px;
-  color: rgb(103, 128, 196);
+  color:rgb(103, 128, 196);
   text-align: center;
   line-height: 1;
 }
 
+p.input
+{
+  text-align: center;
+  background-color: rgb(24, 231, 86);
+}
+p.output
+{
+  text-align: center;
+  background-color: rgb(153, 150, 146);
+  color: rgb(211, 11, 87);
+}
+li:not(:last-child)
+{
+  margin-bottom: 25px;
+}
