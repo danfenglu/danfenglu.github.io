@@ -3,7 +3,7 @@
 
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Danfeng Lu- FizzBuzz 0</title>
+    <title>Language Learning Club - Danfeng Lu- WEB115 - FizzBuzz 0</title>
     <meta name="description" content="FizzBuzz 0">
     <link href="styles/fizzbuzz_styles.css" rel="stylesheet">
     <script src="scripts/fizzbuzz0.js"></script>
@@ -12,7 +12,7 @@
   
   <body>
     <header>
-      <h1>Danfeng Lu - WEB115</h1>
+      <h1>Dan's Learning Language Club </h1>
      
     </header>
     
@@ -22,23 +22,20 @@
       <p id="greeting">Welcome to Language Learning Club</p>
       
         
-      <form id="custInfo">
-        <label for="first_name">First Name: </label>
-        <input type="text" id="first_name" placeholder="Enter your first name here" required /><br>
-        
-        <label for="last_name">Last Name: </label>
-        <input type="text" id="last_name" placeholder="Enter your last name here" required /><br>
-        
-        <label for="middle_initial">Middle Initial: </label>
-        <input type="text" id="middle_initial" placeholder="Enter your middle initial here" required /><br>
-        
-        <input type="button" id="submit" onclick="return getData()" value="Submit" />
-      </form>
+    	<!-- Forms for user input -->
+			<form>
+  			<label for="first_name">First name:</label><br> 
+  			<input type="text" id="first_name" name="first_name" value="" placeholder="Enter your first name"><br>
+			<label for="middle_initial">Middle Initial:</label><br>
+			<input type="text" id="middle_initial" name="middle_initial" value="" placeholder="Enter your middle initial"><br>
+  			<label for="last_name">Last name:</label><br>
+  			<input type="text" id="last_name" name="last_name" value="" placeholder="Enter your last name"><br><br>
+  			<input class="submitButton" type="button" onclick="changeGreeting2()" value="Submit">
+			</form> 
+	
+			<div id="loop"></div>
    
-   
-        <ul id="output">
-        
-        </ul>
+    
     
          
     </main>
@@ -52,15 +49,14 @@
         <a href="https://www.codecademy.com/profiles/Danfeng88">Codecademy</a> &#x2736;
         <a href="https://jsfiddle.net/user/danfeng88/">JSFiddle</a> &#x2736;
         <a href="https://www.khanacademy.org/profile/kaid_973732650511053880701095/">Khanacademy</a> &#x2736;
-        <a href="https://www.freecodecamp.org/danfenglu">freecodecamp</a> &#x2736;
         <a href="https://www.linkedin.com/learning/?setupTimeGoal=false&showCongrats=false&u=76141674">Linkedin Learning</a> 
       </nav>
       <br />
       <p>Designed by Sunshine Webspace Inc.</p>
       <P>
     
-        <a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fdanfenglu.github.io%2Fcontract_web210.html"><img src="images/html_validate_button.png" alt=" HTML5 validation button"></a>
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdanfenglu.github.io%2Fcontract_web210.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="images/css_validate_button.gif" alt=" CSS3 validation button"></a>
+        <a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fdanfenglu.github.io%2Fcontract_web210.html"><img src="images/html_validate_button.png" alt=" HTML5 validation button"></a>|
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdanfenglu.github.io%2Fcontract_web210.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="images/css_validate_button.gif" alt=" CSS3 validation button"></a>|
     
            
       </P>  
