@@ -32,11 +32,11 @@ function fizzbuzz3() {
 		} else if (!checkDivision(i, firstDivisor) && checkDivision(i, secondDivisor) && !checkDivision(i, thirdDivisor)) { 	
 			msg += i + ".&nbsp;Lesson B" + "<br>";
 		} else if (!checkDivision(i, firstDivisor) && !checkDivision(i, secondDivisor) && checkDivision(i, thirdDivisor)) {	
-			msg += i + ".&nbsp;Lesson C!" + "<br>";
+			msg += i + ".&nbsp;Lesson C" + "<br>";
 		} else if (checkDivision(i, firstDivisor) && checkDivision(i, secondDivisor) && !checkDivision(i, thirdDivisor)) {		
 			msg += i + ".&nbsp;Lesson A Lesson B" + "<br>";
 		} else if (checkDivision(i, firstDivisor) && !checkDivision(i, secondDivisor) && checkDivision(i, thirdDivisor)) {		
-			msg += i + ".&nbsp;Lesson A Lesson C!" + "<br>";
+			msg += i + ".&nbsp;Lesson A Lesson C" + "<br>";
 		} else if (!checkDivision(i, firstDivisor) && checkDivision(i, secondDivisor) && checkDivision(i, thirdDivisor)) {		
 			msg += i + ".&nbsp;Lesson B Lesson C" + "<br>";
 		} else if (checkDivision(i, firstDivisor) && checkDivision(i, secondDivisor) && checkDivision(i, thirdDivisor)) {		
