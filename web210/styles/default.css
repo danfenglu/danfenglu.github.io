@@ -39,7 +39,11 @@ main p
  
   text-align: left;
 }
-
+p#homelink
+{
+	text-align: center;
+	
+}
 a 
 {
 	text-decoration: none;
