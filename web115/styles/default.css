@@ -3,46 +3,48 @@ body
   margin: 50PX;
   font-family: "Gill Sans Extrabold", sans-serif;
   text-align: left;
-  background-color: #d0daec;
+  background-color:#d0daec;
   font-size: 30px;
   margin: 0 100px;
   color: rgb(95, 63, 24);
 }
 
+
 h1
 {
- color: rgb(103, 128, 196);
+  color: rgb(103, 128, 196);
  text-align: center;
  line-height: 1;
  font-size: 50px;
+
 }
 
-h2
+ h2
 {
   color: rgb(103, 128, 196);
   font-size: 30px;
   text-align: center;
+
 }
-homelink
-{font-size: 15px;
- text-align: center;
-  
-  
+
 img 
 {
-   width:300px;
+  
+  width:300px;
    height:400px;
-   }
-
-main p 
+  
+  
+}
+main p, form
 {
-  text-align: left;
+ 
+  text-align:center;
 }
 
 a 
 {
-  text-decoration: none;
-  text-align: left;
+	text-decoration: none;
+	text-align: left;
 }
 
 a:link
@@ -66,10 +68,10 @@ a:active
 {
   color: rgb(163 49 156);
 }
-
 ul
 {
   text-align: left; 
+  
 }
 
 figcaption
@@ -77,7 +79,6 @@ figcaption
   font-style: oblique;
   font-size: 20px;	
 }
-
 figure
 {
   text-align: center;
@@ -85,7 +86,7 @@ figure
 
 li
 {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 
 footer img
@@ -96,14 +97,15 @@ footer img
 
 footer a:visited 
 {
-  color: rgb(105 78 145);
+	color: rgb(105 78 145);
 }
-  footer a:hover 
+footer a:hover 
 {
+
   color: rgb(114 143 156);
 }
 
-footer 
+footer,homelink 
 {
   padding-top: 25px;
   font-size: 20px;
@@ -112,20 +114,32 @@ footer
   line-height: 1;
 }
 
-p.input
-{
+p.input{
   text-align: center;
   background-color: rgb(24, 231, 86);
 }
-
-p.output
-{
+p.output{
   text-align: center;
   background-color: rgb(153, 150, 146);
   color: rgb(211, 11, 87);
 }
-
-li:not(:last-child)
-{
+li:not(:last-child) {
   margin-bottom: 25px;
+}
+
+
+
+#loop{
+  width: 600px;
+  margin: auto;
+
+}
+#fizz4
+{
+  border: 3px solid rgb(103, 128, 196);
+  border-radius: 15px;
+  width: 24%;
+  padding: 10px 0px 0px 60px;
+  margin: 0px auto;
+  text-align: left;
 }
