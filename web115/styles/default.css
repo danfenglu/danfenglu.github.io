@@ -25,7 +25,9 @@ h1
   text-align: center;
 
 }
-
+p#homelink{
+	font-size: 20px;
+}
 img 
 {
   
