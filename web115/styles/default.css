@@ -17,13 +17,17 @@ h1
  font-size: 50px;
 }
 
-h2,nav
+h2
 {
   color: rgb(103, 128, 196);
   font-size: 30px;
   text-align: center;
 }
-
+homelink
+{font-size: 15px;
+ text-align: center;
+  
+  
 img 
 {
    width:300px;
