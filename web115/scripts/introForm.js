@@ -5,7 +5,7 @@ function introForm() {
 	var cp = document.getElementById("computer_platform").value;
 	var perBack = document.getElementById("personal").value;
 	var acaBack = document.getElementById("academic").value;
-	var courses= document.getElementById("courses").value;
+	var courses= document.getElementById("course").value;
 	var share = document.getElementById("share").value;
 	
 	document.getElementById("name").innerHTML = "Name: " + firstname + " " + lastname;	
