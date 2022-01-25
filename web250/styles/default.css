@@ -11,14 +11,21 @@ body
 
 h1
 {
-  color: rgb(134, 17, 17);
+color: rgb(134, 17, 17);
  text-align: center;
  line-height: 1;
  font-size: 50px;
 
 }
+h2
+{
+  text-align: center;
+  line-height: 1;
+  font-size: 30px;
+  color: rgb(134, 17, 17);
 
- h2,h3,nav
+}
+h3,nav
 {
   color:rgb(134, 17, 17);
   font-size: 30px;
@@ -27,6 +34,7 @@ h1
 
 p#homelink{
 	font-size: 15px;
+  text-align: center;
 }
 img 
 {
