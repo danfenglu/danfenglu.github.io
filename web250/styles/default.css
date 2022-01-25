@@ -1,1 +1,109 @@
+body
+{
+  margin: 50PX;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  text-align: left;
+  background-color: #e9d0e3;
+  font-size: 30px;
+  margin: 0 100px;
+  color: rgb(37, 26, 30);
+}
+
+h1
+{
+  color: rgb(134, 17, 17);
+ text-align: center;
+ line-height: 1;
+ font-size: 50px;
+
+}
+
+ h2,h3,nav
+{
+  color:rgb(134, 17, 17);
+  font-size: 30px;
+
+}
+
+p#homelink{
+	font-size: 15px;
+}
+img 
+{
+  
+  width:300px;
+   height:400px;
+  
+  
+}
+
+
+
+a 
+{
+	text-decoration: none;
+	text-align: left;
+}
+
+a:link
+{
+  color: rgb(114 143 156);
+ 
+}
+
+a:visited
+{
+  color: rgb(105 78 145);
+}
+
+a:hover
+{
+  color: rgb(114 143 156);
+  text-decoration: underline;
+}
+
+a:active
+{
+  color: rgb(163 49 156);
+}
+ul
+{
+  text-align: left; 
+  
+}
+
+figcaption
+{
+  font-style: oblique;
+  font-size: 20px;	
+}
+figure
+{
+  text-align: center;
+}
+
+li
+{
+	margin: 10px 0;
+}
+
+
+footer a:visited 
+{
+	color: rgb(105 78 145);
+}
+footer a:hover 
+{
+
+  color: rgb(114 143 156);
+}
+
+footer 
+{
+  padding-top: 25px;
+  font-size: 20px;
+  color:rgb(103, 128, 196);
+  text-align: center;
+  line-height: 1;
+}
 
