@@ -4,7 +4,7 @@ body
   font-family: "Gill Sans Extrabold", sans-serif;
   text-align: left;
   background-color: #e9d0e3;
-  font-size: 18px;
+  font-size:18px;
   margin: 0 100px;
   color: rgb(37, 26, 30);
 }
@@ -15,7 +15,7 @@ color: rgb(134, 17, 17);
  text-align: center;
  line-height: 1;
  font-size: 30px;
- font-family: "Century Gothic";
+font-style: "Century Gothic";
 
 }
 h2
@@ -24,7 +24,7 @@ h2
   line-height: 1;
   font-size: 20px;
   color: rgb(134, 17, 17);
- font-family: "Lucida Console";
+ font-style: oblique;
 
 }
 h3,nav
@@ -91,11 +91,12 @@ ul
 figcaption
 {
   font-style: oblique;
-  font-size: 20px;	
+  font-size: 15px;	
 }
 figure
 {
   text-align: center;
+	
 }
 
 li
