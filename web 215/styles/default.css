@@ -18,23 +18,29 @@ color: rgb(134, 17, 17);
  font-style: Century Gothic;
 
 }
+
 h2
 {
   text-align: center;
   line-height: 1;
   font-size: 20px;
-  color: rgb(134, 17, 17);
-  font-style: Luminari;
 
 }
+
 h3,nav
 {
-  color:rgb(134, 17, 17);
   font-size: 20px;
+}
 
+h4
+{
+	font-size: 15px;
+	font-style: Luminari;
+	
+}
 
 p#homelink{
-	font-size: 18px;
+ font-size: 18px;
   text-align: center;
 }
 img 
