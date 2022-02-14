@@ -34,8 +34,10 @@ h3,nav
 
 h4
 {
-	font-size: 15px;
-	font-style: Luminari;
+font-size: 15px;
+font-style: oblique;
+text-align: center;	
+color: rgb(134, 17, 17);
 	
 }
 
