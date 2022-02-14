@@ -4,7 +4,7 @@ body
   font-family: "Gill Sans Extrabold", sans-serif;
   text-align: left;
   background-color: #e9d0e3;
-  font-size: 30px;
+  font-size: 20px;
   margin: 0 100px;
   color: rgb(37, 26, 30);
 }
@@ -14,26 +14,26 @@ h1
 color: rgb(134, 17, 17);
  text-align: center;
  line-height: 1;
- font-size: 50px;
+ font-size: 20px;
 
 }
 h2
 {
   text-align: center;
   line-height: 1;
-  font-size: 30px;
+  font-size: 18px;
   color: rgb(134, 17, 17);
 
 }
 h3,nav
 {
   color:rgb(134, 17, 17);
-  font-size: 30px;
+  font-size: 10px;
 
 }
 
 p#homelink{
-	font-size: 25px;
+	font-size: 18px;
   text-align: center;
 }
 img 
