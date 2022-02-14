@@ -15,7 +15,7 @@ color: rgb(134, 17, 17);
  text-align: center;
  line-height: 1;
  font-size: 30px;
-font-style: "Century Gothic";
+ font-style: Century Gothic;
 
 }
 h2
@@ -24,7 +24,7 @@ h2
   line-height: 1;
   font-size: 20px;
   color: rgb(134, 17, 17);
- font-style: oblique;
+  font-style: Luminari;
 
 }
 h3,nav
@@ -32,7 +32,6 @@ h3,nav
   color:rgb(134, 17, 17);
   font-size: 20px;
 
-}
 
 p#homelink{
 	font-size: 18px;
