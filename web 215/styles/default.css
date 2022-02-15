@@ -127,7 +127,8 @@ footer a:hover
 
 footer 
 {
-  padding-top: 25px;
+ padding-top: 25px;
+padding-bottom: 200px;
   font-size: 20px;
   color:rgb(103, 128, 196);
   text-align: center;
