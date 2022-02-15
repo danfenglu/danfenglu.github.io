@@ -4,8 +4,8 @@ body
   font-family: "Gill Sans Extrabold", sans-serif;
   text-align: left;
   background-color: #e9d0e3;
-  font-size: 30px;
-  margin: 0 100px;
+  font-size:18px;
+  margin:25px 50px 200px;;
   color: rgb(37, 26, 30);
 }
 
@@ -14,26 +14,38 @@ h1
 color: rgb(134, 17, 17);
  text-align: center;
  line-height: 1;
- font-size: 50px;
+ font-size: 30px;
+ font-family: Dancing Script;
 
 }
+
 h2
 {
   text-align: center;
   line-height: 1;
-  font-size: 30px;
-  color: rgb(134, 17, 17);
+  font-size: 20px;
 
 }
-h3,nav
-{
-  color:rgb(134, 17, 17);
-  font-size: 30px;
 
+h3
+{
+  font-size: 20px;
+}
+nav
+{
+  font-size: 18px;
+}
+h4
+{
+font-size: 15px;
+font-style: italic;
+text-align: center;	
+color: rgb(134, 17, 17);
+	
 }
 
 p#homelink{
-	font-size:25px;
+ font-size: 18px;
   text-align: center;
 }
 img 
@@ -42,11 +54,13 @@ img
   width:300px;
    height:400px;
   
+  
 }
 
 .palette
 {width:400px;
 height:100px;
+
 
 
 }
@@ -87,11 +101,12 @@ ul
 figcaption
 {
   font-style: oblique;
-  font-size: 20px;	
+  font-size: 15px;	
 }
 figure
 {
   text-align: center;
+	
 }
 
 li
@@ -112,10 +127,10 @@ footer a:hover
 
 footer 
 {
-  padding-top: 25px;
+ padding-top: 25px;
+padding-bottom: 200px;
   font-size: 20px;
   color:rgb(103, 128, 196);
   text-align: center;
   line-height: 1;
 }
-
