@@ -1,6 +1,6 @@
 body
 {
-  margin: 50PX;
+  margin: 100PX;
   font-family: "Gill Sans Extrabold", sans-serif;
   text-align: left;
   background-color: #e9d0e3;
@@ -126,8 +126,7 @@ footer a:hover
 
 footer 
 {
- padding-top: 25px;
-padding-bottom: 200px;
+
   font-size: 20px;
   color:rgb(103, 128, 196);
   text-align: center;
