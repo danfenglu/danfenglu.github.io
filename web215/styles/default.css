@@ -80,7 +80,7 @@ figure
 
 li
 {
-	margin: 15px 0;
+margin: 15px 0;
 }
 
 
@@ -93,5 +93,8 @@ footer
   text-align: center;
   line-height: 1;
 }
-
+footer > nav > a
+{
+  color: rgba(48, 12, 177, 0.945);  
+}
 
