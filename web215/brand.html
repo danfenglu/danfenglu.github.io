@@ -6,13 +6,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Danfeng Lu">
 <link rel="stylesheet" type="text/css" href="styles/default.css">
-<title>Dan Bakery - Danfeng Lu - Web 250- Brand</title>
+<title>Dan Bakery - Danfeng Lu - Web 215- Brand</title>
 </head>
 
 <body>
 
     <main>
-	 <div data-include="components/header.html"></div>   
+        <header>
+            <h1>Dan Bakery</h1>
+            <h4>Made by hand, from scratch, with love.<h4>
+    
+          <p id="homelink">
+                   <a href="index.html">Home</a>&#x2736;
+                   <a href="introduction.html">Introduction</a>&#x2736;
+                   <a href="contract.html">Contract</a>&#x2736;
+                   <a href="brand.html">Brand</a>
+                 
+              
+            </p>
+                
+        </header>
 	    
        
         <figure class="cute">
@@ -43,9 +56,32 @@
    
 
 </main>
-<div data-include="components/footer.html"></div>
-<script src="scripts/include.js"></script>
+<footer>  
+
+	<nav>
+			<a href="https://github.com/danfenglu">Github</a>&#x2736;
+			<a href="https://danfenglu.github.io/">Github Pages</a>&#x2736;
+			<a href="https://danfenglu.github.io/web215/">Github WEB215</a>&#x2736;
+			<a href="https://www.freecodecamp.org/danfenglu">Freecodecamp</a>&#x2736;
+			<a href="https://www.codecademy.com/profiles/Danfeng88">Codecademy</a>&#x2736;
+			<a href="https://jsfiddle.net/user/danfeng88/">JSFiddle</a>&#x2736;
+			
+			<a href="https://www.linkedin.com/learning/?setupTimeGoal=false&showCongrats=false&u=76141674">Linkedin Learning</a> 
+	</nav>
+
+		<p>Page Built by Sunshine Webspace Inc.</p>
+	<a href="https://validator.w3.org/check?uri=" id="validatehtml"><img src= "images/html_validate_button.png" alt="Validate HTML!"
+		style= "border: 0; width: 90px; height: 30px" /></a>
+	<a href="https://jigsaw.w3.org/css-validator/check/referer?uri=" id="validatecss"><img src= "images/css_validate_button.gif" alt="Validate CSS!"
+		style= "border: 0; width: 90px; height: 30px" /></a>
+	<script>
+		document.getElementById("validatehtml").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+		document.getElementById("validatecss").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+	</script>
+			 
+	</footer>
 		
 </body>	
 	
 </html>	
+
