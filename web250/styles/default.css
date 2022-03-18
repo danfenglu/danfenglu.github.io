@@ -1,6 +1,6 @@
 body
 {
-  margin: 100PX;
+  margin: 30PX;
   font-family: "Gill Sans Extrabold", sans-serif;
   text-align: left;
   background-color: #e9d0e3;
@@ -13,9 +13,8 @@ h1
 color: rgb(134, 17, 17);
  text-align: center;
  line-height: 1;
- font-size: 30px;
+ font-size: 35px;
  font-family: Dancing Script;
-
 }
 
 h2
@@ -23,78 +22,51 @@ h2
   text-align: center;
   line-height: 1;
   font-size: 20px;
-
 }
 
 h3
 {
   font-size: 20px;
 }
-nav
-{
-  font-size: 18px;
-}
+
 h4
 {
 font-size: 15px;
 font-style: italic;
 text-align: center;	
 color: rgb(134, 17, 17);
-	
 }
 
-p#homelink{
- font-size: 18px;
-  text-align: center;
+p#homelink
+{
+font-size:25px;
+text-align: center;
+
 }
 img 
 {
-  
-  width:300px;
-   height:400px;
-  
-  
+width:300px;
+height:400px;
 }
+
 
 .palette
 {width:400px;
 height:100px;
-
-
-
 }
 
 a 
 {
 	text-decoration: none;
-	text-align: left;
+  color: rgb(37, 26, 30);
 }
 
-a:link
-{
-  color: rgb(114 143 156);
- 
-}
-
-a:visited
-{
-  color: rgb(105 78 145);
-}
-
-a:hover
-{
-  color: rgb(114 143 156);
-  text-decoration: underline;
-}
-
-a:active
-{
-  color: rgb(39, 36, 37);
-}
 ul
 {
   text-align: left; 
-  
+  margin-left: 30ex;
+  padding-top: 8ex;
+  font-size:25px;
 }
 
 figcaption
@@ -105,30 +77,24 @@ figcaption
 figure
 {
   text-align: center;
-	
 }
 
 li
 {
-	margin: 10px 0;
+	margin: 15px 0;
 }
 
-
-footer a:visited 
-{
-	color: rgb(105 78 145);
-}
-footer a:hover 
-{
-
-  color: rgb(114 143 156);
-}
 
 footer 
 {
-
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 20px;
-  color:rgb(103, 128, 196);
+  color: rgb(134, 17, 17);
   text-align: center;
   line-height: 1;
 }
+
+
+
+  
