@@ -57,9 +57,12 @@ height:100px;
 
 a 
 {
-	text-decoration: none;
+	text-decoration: underline;
   color: rgb(37, 26, 30);
 }
+
+
+
 
 ul
 {
@@ -96,5 +99,11 @@ footer
 }
 
 
-
-  
+.brand
+{
+  border:5px solid;
+  border-color: rgb(134, 17, 17);;
+  margin-left: 30ex;
+  margin-right: 30ex;
+  padding: 5em;
+}
