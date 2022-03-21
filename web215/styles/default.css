@@ -99,11 +99,10 @@ footer
 }
 
 
-.brand
+.brand , .form,.formex
 {
   border:5px solid;
   border-color: rgb(134, 17, 17);;
-  margin-left: 30ex;
-  margin-right: 30ex;
-  padding: 5em;
+  margin: 5ex 50ex;
+  padding: 2em;
 }
