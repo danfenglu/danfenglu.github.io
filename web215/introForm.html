@@ -11,7 +11,7 @@
 </head>
 <body>
 <div data-include="components/header.html"></div>
-
+<main> 
 <h2>Introduction Form</h2>
 
 
@@ -40,8 +40,24 @@
    
     
    <label for="share">Interesting Fact:</label><br>
-	<textarea id="share" name="share" rows="4" cols="80">I like hiking, cooking and playing with my kids.</textarea><br>
+	<textarea id="share" name="share" rows="4" cols="80">I like hiking, cooking and playing with my kids.</textarea><br><br>
 
+    <label for="prefer">Which do you prefer?: </label><br>
+				<br>
+	<input type="radio" id="hike" name="hike" value="Hiking">Hiking<br>
+                <br>
+	<input type="radio" id="cook" name="cook" value="Cooking">Cooking<br>
+				<br>
+    <input type="radio" id="bake" name="bake" value="Baking">Baking <br>
+				<br>	
+	<label for="design">Which cake flavor do you like?: </label><br>
+				<br>
+	<input type="checkbox" id="red" name="red" value="Red Velvet Cake">Red Velvet Cake<br>
+                <br>
+	<input type="checkbox" id="carrot" name="carrot" value="Carrot Cake">Carrot Cake<br>
+				<br>
+	<input type="checkbox" id="icecream" name="icecream" value="Ice Cream Cake">Ice Cream Cake<br>
+                <br>
     <input id="submitButton" type="button" onclick="introForm()" value="Submit" />
 </form>
 </div>
@@ -54,9 +70,11 @@
     <p id="academicBackground"></p>
     <p id="mycourse"></p>
     <p id="Share"></p>
+    <p id="disp"></p>
+    <p id="choices"></p>
 </div>
 		
-
+</main>
 <div data-include="components/footer.html"></div>
 <script src="scripts/include.js"></script>
 		
