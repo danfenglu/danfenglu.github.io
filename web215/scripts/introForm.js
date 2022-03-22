@@ -40,27 +40,25 @@ function introForm() {
 	}
 
 
-	if(document.getElementById('red').checked) {
-		document.getElementById("choices").innerHTML
-			=  "You like " +document.getElementById("red").value + ".";
-		
-	}
-	else if(document.getElementById('carrot').checked) {
-		document.getElementById("choices").innerHTML
-		= "You like " + document.getElementById("carrot").value + ".";
-			
-	}
-	else if(document.getElementById('icecream').checked) {
-		document.getElementById("choices").innerHTML
-		= "You like " + document.getElementById("icecream").value + ".";
-	
-	}
-	else {
-		document.getElementById("choices").innerHTML
-			= "No one selected" + ".";
-	}
-
-
-
+		var ele=[]
+           var red = document.getElementById("checkbox1")
+            if(red.checked){
+                    ele.push(red.value);
+             }
+             var carrot =  document.getElementById("checkbox2")
+              if(carrot.checked){
+                    ele.push(carrot.value);
+             }
+             var ice = document.getElementById("checkbox3")
+              if(ice.checked){
+                    ele.push(ice.value);
+             }
+               if(ele.length>0){
+                document.getElementById("choices").innerHTML = "You like: " + ele +".";
+               }
+               else{
+               document.getElementById("choices").innerHTML = "You dont like any thing";
+               }
+        
 
 }
