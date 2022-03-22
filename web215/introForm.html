@@ -30,34 +30,34 @@
         <input type="text" id="computer_platform" name="computer_platform" value="Windows 10" /><br><br>
 
     <label for="personal">Personal Background:</label><br>
-        <textarea id="personal" name="personal" rows="4" cols="80">My family moved to Charlotte 4 years ago from Boston. I live with my husband and two daughters. I started taking CPCC courses in 2020.</textarea><br><br>
+        <textarea id="personal" name="personal" rows="4" cols="50">My family moved to Charlotte 4 years ago from Boston. I live with my husband and two daughters. I started taking CPCC courses in 2020.</textarea><br><br>
 
     <label for="academic">Academic Background:</label><br>
-        <textarea id="academic" name="academic" rows="4" cols="80">I didn’t take any coding courses before. The reason why I choose to learn web development is because web development gives me the opportunity to express myself creatively on the internet.</textarea><br><br>
+        <textarea id="academic" name="academic" rows="4" cols="50">I didn’t take any coding courses before. The reason why I choose to learn web development is because web development gives me the opportunity to express myself creatively on the internet.</textarea><br><br>
   
    <label for="course">Courses I'm Taking, and Why</label><br>
-            <textarea id="takingcourse" name="course" rows="4" cols="80">I am taking WEB250, WEB215, CSC151, ENG231. Theses courses are required for my program.</textarea><br><br>
+            <textarea id="takingcourse" name="course" rows="4" cols="50">I am taking WEB250, WEB215, CSC151, ENG231. Theses courses are required for my program.</textarea><br><br>
    
     
    <label for="share">Interesting Fact:</label><br>
-	<textarea id="share" name="share" rows="4" cols="80">I like hiking, cooking and playing with my kids.</textarea><br><br>
+	<textarea id="share" name="share" rows="4" cols="50">I like hiking, cooking and playing with my kids.</textarea><br><br>
 
     <label for="prefer">Which do you prefer?: </label><br>
-				<br>
+	<br>
 	<input type="radio" id="hike" name="hike" value="Hiking">Hiking<br>
-                <br>
+    <br>
 	<input type="radio" id="cook" name="cook" value="Cooking">Cooking<br>
-				<br>
+	<br>
     <input type="radio" id="bake" name="bake" value="Baking">Baking <br>
-				<br>	
-	<label for="design">Which cake flavor do you like?: </label><br>
-				<br>
-	<input type="checkbox" id="red" name="red" value="Red Velvet Cake">Red Velvet Cake<br>
-                <br>
-	<input type="checkbox" id="carrot" name="carrot" value="Carrot Cake">Carrot Cake<br>
-				<br>
-	<input type="checkbox" id="icecream" name="icecream" value="Ice Cream Cake">Ice Cream Cake<br>
-                <br>
+	<br>	
+    <label>Which cake flavor do you like?:</label><br/>
+    <br/>
+    <input type="checkbox" id="checkbox1" name="red" value="Red Velvet Cake">Red Velvet Cake<br/>
+      <br>
+    <input type="checkbox" id="checkbox2" name="carrot" value="Carrot Cake">Carrot Cake <br/>
+    <br>
+   <input type="checkbox" id="checkbox3" name="ice" value="Ice Cream Cake">Ice Cream Cake<br/>
+    <br>
     <input id="submitButton" type="button" onclick="introForm()" value="Submit" />
 </form>
 </div>
@@ -73,7 +73,10 @@
     <p id="disp"></p>
     <p id="choices"></p>
 </div>
-		
+	
+<div>
+    
+</div>
 </main>
 <div data-include="components/footer.html"></div>
 <script src="scripts/include.js"></script>
