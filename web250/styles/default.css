@@ -18,6 +18,7 @@ color: rgb(49, 138, 37);
 
 h2
 {
+  color: rgb(127, 134, 44);
   text-align: center;
   line-height: 1;
   font-size: 20px;
@@ -26,6 +27,7 @@ h2
 h3
 {
   font-size: 20px;
+  text-align: center;
 }
 
 h4
