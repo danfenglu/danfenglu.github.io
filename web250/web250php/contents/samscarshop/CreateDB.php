@@ -4,7 +4,7 @@
  * Demonstrates how to create a database, create a table, and insert records.
  */
 
-$mysqli = new mysqli('mySQL', 'root', 'verysecret' );
+$mysqli = new mysqli('sql102.epizy.com', 'epiz_31064065', 'vMcSwU5CGXos' );
 
 
    if (!$mysqli) { 
