@@ -1,0 +1,99 @@
+body
+{
+  font-family: "Gill Sans Extrabold", sans-serif;
+  text-align: left;
+  background-color: #e4e1dc;
+  font-size:20px; 
+  color: rgb(34, 34, 26);
+}
+
+h1
+{
+color: rgb(49, 138, 37);
+ text-align: center;
+ line-height: 1;
+ font-size: 35px;
+ font-family: Dancing Script;
+}
+
+h2
+{
+  color: rgb(25, 15, 9);
+  text-align: center;
+  line-height: 1;
+  font-size: 20px;
+}
+
+h3
+{
+  font-size: 20px;
+  text-align: center;
+}
+
+h4
+{
+font-size: 15px;
+font-style: italic;
+text-align: center;	
+color: rgb(26, 34, 15);
+}
+
+
+.sun
+{
+width:400px;
+height:400px;
+}
+
+
+.palette
+{width:400px;
+height:100px;
+}
+
+a 
+{
+	text-decoration: underline;
+  color: rgb(37, 26, 30);
+}
+
+
+figcaption
+{
+  font-style: oblique;
+  font-size: 15px;	
+}
+figure
+{
+  text-align: center;
+}
+
+li
+{
+	margin: 5px 5px;
+}
+
+
+footer 
+{
+
+
+  font-size: 15px;
+
+  text-align: center;
+ 
+}
+
+
+.toc, .intro, .contract, .brand
+{
+  border:5px solid;
+  border-color: rgb(135, 192, 154);;
+  margin: 5ex 20ex;
+  padding-left: 3em;
+ 
+}
+ a:hover 
+ {
+  color: #4460db;
+}
